@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Q42.HueApi" Version="3.20.0" />
+      <PackageReference Include="Q42.HueApi.Entertainment" Version="3.18.1" />
+      <PackageReference Include="SpotifyAPI.Web" Version="6.3.0" />
+      <PackageReference Include="SpotifyAPI.Web.Auth" Version="6.3.0" />
+    </ItemGroup>
+
+</Project>

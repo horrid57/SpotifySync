@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifySync", "SpotifySync\SpotifySync.csproj", "{02F00E16-8F42-40B6-9E8E-4189E26E6405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifySyncConsole", "SpotifySyncConsole\SpotifySyncConsole.csproj", "{756D9E3E-7A25-4367-A080-BB1E5B3391A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F00E16-8F42-40B6-9E8E-4189E26E6405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F00E16-8F42-40B6-9E8E-4189E26E6405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F00E16-8F42-40B6-9E8E-4189E26E6405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F00E16-8F42-40B6-9E8E-4189E26E6405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756D9E3E-7A25-4367-A080-BB1E5B3391A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756D9E3E-7A25-4367-A080-BB1E5B3391A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756D9E3E-7A25-4367-A080-BB1E5B3391A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756D9E3E-7A25-4367-A080-BB1E5B3391A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
